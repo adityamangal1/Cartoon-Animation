@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: url("../img/house.png") no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+.image {
+  margin-top: 500px;
+}
+
+body::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("../img/rain.png");
+  animation: rain 0.2s linear infinite;
+}
+
+.headimg img{
+  position: absolute;
+  height: 13%;
+  width: 7%;
+  animation: color-change 1s linear infinite;
+
+}
+
+@keyframes rain {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 20% 100%;
+  }
+}
+@keyframes color-change {
+  0%,100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
