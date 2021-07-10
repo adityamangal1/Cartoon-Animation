@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap');
+
 body {
   padding: 0;
   margin: 0;
@@ -5,15 +7,14 @@ body {
   background-size: 100% 100%;
   background-attachment: fixed;
   overflow: hidden;
-
 }
 
 .image {
   margin-top: 500px;
 }
 
-body::before{
-  content: '';
+body::before {
+  content: "";
   position: absolute;
   height: 100%;
   width: 100%;
@@ -21,14 +22,55 @@ body::before{
   animation: rain 0.2s linear infinite;
 }
 
-.headimg img{
+.headimg img {
   position: absolute;
   height: 13%;
   width: 7%;
   animation: color-change 1s linear infinite;
-
 }
 
+.button1 {
+  position: absolute;
+  background: aquamarine;
+  text-decoration: none;
+  font-family: "Baloo Tamma 2", cursive;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 11px;
+  border: 2px solid black;
+  margin-left: 95rem;
+  margin-top: 14px;
+  padding: 2.5px;
+
+}
+.button1:hover {
+
+  font-size: 24px;
+  animation: color-change 1s linear infinite;
+
+
+}
+.button2 {
+  position: absolute;
+  background: aquamarine;
+  text-decoration: none;
+  font-family: "Baloo Tamma 2", cursive;
+  cursor:pointer;
+  font-size: 20px;
+  border-radius: 11px;
+  border: 2px solid black;
+  margin-left: 10rem;
+  margin-left: 101rem;
+  margin-top: 14px;
+  padding: 2.5px;
+ 
+}
+
+.button2:hover {
+
+  font-size: 24px;
+  animation: color-change 1s linear infinite;
+}
 @keyframes rain {
   0% {
     background-position: 0% 0%;
@@ -38,8 +80,10 @@ body::before{
     background-position: 20% 100%;
   }
 }
+
 @keyframes color-change {
-  0%,100% {
+  0%,
+  100% {
     filter: hue-rotate(0deg);
   }
 
