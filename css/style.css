@@ -71,6 +71,7 @@ body::before {
   font-size: 24px;
   animation: color-change 1s linear infinite;
 }
+
 @keyframes rain {
   0% {
     background-position: 0% 0%;
