@@ -20,6 +20,7 @@ body::before {
   width: 100%;
   background: url("../img/rain.png");
   animation: rain 0.2s linear infinite;
+
 }
 
 .headimg img {
@@ -38,7 +39,7 @@ body::before {
   font-size: 20px;
   border-radius: 11px;
   border: 2px solid black;
-  margin-left: 95rem;
+  margin-left: 82rem;
   margin-top: 14px;
   padding: 2.5px;
 
@@ -60,7 +61,7 @@ body::before {
   border-radius: 11px;
   border: 2px solid black;
   margin-left: 10rem;
-  margin-left: 101rem;
+  margin-left: 88rem;
   margin-top: 14px;
   padding: 2.5px;
  
