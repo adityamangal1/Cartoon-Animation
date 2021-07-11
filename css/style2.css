@@ -12,7 +12,7 @@ body::before {
   height: 100%;
   width: 100%;
   background: url(../img/background2.jpg) no-repeat center center/cover;
-  margin-top: 65em;
+  margin-top: 50em;
   opacity: 0.30;
 }
 
@@ -38,9 +38,9 @@ body::before {
   position: absolute;
   margin-top: 850px;
   font-family: "Baloo Tamma 2", cursive;
-  font-size: 18px;
+  font-size: 17px;
   color: #fc0707;
-  margin-bottom: 80px;
+  margin-bottom: 119px;
 }
 
 .left {
