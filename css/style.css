@@ -10,7 +10,7 @@ body {
 }
 
 .image {
-  margin-top: 430px;
+  margin-top: 432px;
 }
 
 body::before {
@@ -42,14 +42,13 @@ body::before {
   margin-left: 80rem;
   margin-top: 14px;
   padding: 2.5px;
-
 }
+
 .button1:hover {
 
   font-size: 24px;
   animation: color-change 1s linear infinite;
-
-
+  
 }
 .button2 {
   position: absolute;
