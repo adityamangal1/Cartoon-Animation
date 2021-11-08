@@ -2,10 +2,10 @@
 
 - **Cartoon Animation Hack made with HTML and css. Used Javascript for adding sound in background. I choose shinchan character for this cartoon hack them as he is my favourite cartoon character.**
 
-<p align="center">
+<!-- <p align="center">
   <img alt="Sloan, the sloth mascot" width="250px" src="https://user-images.githubusercontent.com/68494604/125183107-5dce2d00-e231-11eb-9b58-6b358b810056.gif">
 </p>
-
+ -->
 
 
 <!-- ## 🛠️ Demo
